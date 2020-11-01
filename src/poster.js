@@ -1,7 +1,7 @@
 const posterImg = [
-"https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg/revision/latest?cb=20181106050528"
+"https://fesapusewebsite.blob.core.windows.net/fathom/castleinthesky-1000x1480-r3-f6aba65dfc41c4fc47fc9289c1674057.jpg"
 ,
-"https://static.wikia.nocookie.net/studio-ghibli/images/4/4c/Ghibli_grave_of_the_fireflies_film_poster.jpg/revision/latest?cb=20171214173909"
+"https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg"
 ,
 "https://lh3.googleusercontent.com/evxjC8-GbDAK0BiyilIJAGXQQijPgLWW5G6bs0nvH7po6Cihq3ASkN492zEOcf95O3iC5EzRBsDIUXnFtcV8"
 ,
