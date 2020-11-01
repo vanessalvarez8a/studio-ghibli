@@ -1,0 +1,170 @@
+body {
+    background: #f7d7dc;
+    font-family: 'Libre Franklin', sans-serif;    
+}
+
+.logo {
+    display: flex;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#ghibli-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.movie-card {
+	background-color: white;
+	border-radius: 0.8em;
+    box-shadow: rgba(black, 0.2) 0 30px 18px -24px;
+    display: flex;
+	margin: 20px auto;
+    min-height: 200px;
+	max-width: 800px;
+    overflow: hidden;
+    transition: 300ms;
+	width: 100%;
+}
+
+.movie-card:hover {
+	box-shadow: 0px 10px 25px rgba(0,0,0,.08);
+	transform:scale(1.03);
+}
+
+.card-right-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40px;
+    padding: 40px;
+}
+
+.card-left-column {
+    display: flex;
+    transform: translateZ(0);
+    margin-right: 20px;
+}
+
+.card-poster-container {
+    align-self: center;
+    background-color: lightgray;
+    border-radius: 2px;
+    box-shadow: rgb(0 0 0) 0 6px 12px -6px;
+    display: block;
+    left: 56px;
+    margin: auto;
+    position: relative;
+    width: 140px;
+    z-index: 1;
+}
+
+.card-poster {
+    display: block;
+    min-height: 206px;
+    width: 100%;
+}
+
+.card-poster-blur {
+    background-color: gainsboro;
+    bottom: -20%;
+    height: 150%;
+    left: -30%;
+    overflow: hidden;
+    position: absolute;
+    top: -18%;
+    transform: rotate(5deg);
+    width: 150%;
+}
+
+.card-poster-blur__zoom {
+    filter: blur(6px);
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.4);
+    width: 100%;
+}
+
+.card-header {
+    color: #565252;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.card-date {
+    padding: 0 25px;
+}
+
+.card-description {
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 25px 20px;
+}
+
+.card-score-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px 20px;
+}
+
+.tomato-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.card-score {
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    margin-left: 8px;
+}
+
+@media (max-width: 570px) {
+    .card-left-column {
+        display: flex;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+    .card-poster-blur {
+        height: 107%;
+        width: 150%;
+    }
+}
+
+@media (max-width: 570px) {
+    .card-poster-container {
+        align-self: center;
+        left: 28px;
+        margin: auto;
+        margin-left: 40px;
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 570px) {
+    .card-right-column {
+        padding: 40px;
+    }
+}
+
+  
+@media (max-width: 570px) {
+    .movie-card {
+        flex-direction: column;
+        justify-content: center;
+        min-height: 400px;
+    }
+}
