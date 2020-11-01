@@ -3,6 +3,6 @@ Using the [Studio Ghibli API](https://github.com/janaipakos/ghibliapi) I am disp
 
 Since the API does not provide the movie poster image I had to create an array of links for the movie poster.
 
-Here is the [Demo]()
+Here is the [Demo](https://studioghiblimovies.netlify.app/)
 
 Enjoy!
